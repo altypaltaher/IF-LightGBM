@@ -1,0 +1,7 @@
+data/*.csv
+data/*.CSV
+data/*.parquet
+results/v20/oof/*.npz
+__pycache__/
+*.pyc
+*.db

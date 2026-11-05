@@ -1,0 +1,70 @@
+{
+  "LightGBM (raw)": {
+    "params": {
+      "num_leaves": 60,
+      "learning_rate": 0.012558288841796526,
+      "min_child_samples": 9,
+      "feature_fraction": 0.7642523667233095,
+      "bagging_fraction": 0.9695614235572613,
+      "lambda_l2": 0.3026131438470334
+    },
+    "n_estimators": 477,
+    "inner_cv_auc": 0.9890659178499077
+  },
+  "IF-LightGBM (proposed)": {
+    "params": {
+      "num_leaves": 52,
+      "learning_rate": 0.017306952368125683,
+      "min_child_samples": 12,
+      "feature_fraction": 0.9263426780333337,
+      "bagging_fraction": 0.9243920114431063,
+      "lambda_l2": 0.26706283602405173
+    },
+    "n_estimators": 352,
+    "inner_cv_auc": 0.9893666473606579
+  },
+  "XGBoost (raw)": {
+    "params": {
+      "max_depth": 8,
+      "learning_rate": 0.015091851491142606,
+      "subsample": 0.9597839525187188,
+      "colsample_bytree": 0.5537656283280834,
+      "min_child_weight": 2.8313062527766135,
+      "reg_lambda": 0.06959034532330943
+    },
+    "n_estimators": 1205,
+    "inner_cv_auc": 0.9885984007280832
+  },
+  "AdaBoost (raw)": {
+    "params": {
+      "n_estimators": 357,
+      "learning_rate": 0.12384445141556029,
+      "max_depth": 4
+    },
+    "n_estimators": 357,
+    "inner_cv_auc": 0.9554960660251696
+  },
+  "GBM (raw)": {
+    "params": {
+      "n_estimators": 92,
+      "learning_rate": 0.09914404798678048,
+      "max_depth": 6,
+      "subsample": 0.8903813548774526,
+      "min_samples_leaf": 13
+    },
+    "n_estimators": 92,
+    "inner_cv_auc": 0.9877567986416818
+  },
+  "LightGBM (raw, 4095 bins)": {
+    "params": {
+      "num_leaves": 38,
+      "learning_rate": 0.015477425172900296,
+      "min_child_samples": 21,
+      "feature_fraction": 0.5641487123147196,
+      "bagging_fraction": 0.9308296411367867,
+      "lambda_l2": 0.02714769681894064
+    },
+    "n_estimators": 498,
+    "inner_cv_auc": 0.9896228687084209
+  }
+}

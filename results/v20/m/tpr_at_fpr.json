@@ -1,0 +1,140 @@
+{
+ "CICAndMal2017": {
+  "0.01": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.5010669511869832,
+    "LightGBM (raw)": 0.46225660176046945,
+    "XGBoost (raw)": 0.46145638837023206,
+    "GBM (raw)": 0.4259802614030408,
+    "AdaBoost (raw)": 0.2630034675913577
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.47147609517456085,
+    "LightGBM (raw)": 0.47120978430064486,
+    "XGBoost (raw)": 0.4738697798532354,
+    "GBM (raw)": 0.42225883922615076,
+    "AdaBoost (raw)": 0.26955392483878143
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 3,
+    "XGBoost (raw)": 3,
+    "GBM (raw)": 4,
+    "AdaBoost (raw)": 5
+   }
+  },
+  "0.05": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.7818084822619366,
+    "LightGBM (raw)": 0.7712723392904774,
+    "XGBoost (raw)": 0.7475326753801014,
+    "GBM (raw)": 0.7288610296078954,
+    "AdaBoost (raw)": 0.5193384902640704
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.7864794307315989,
+    "LightGBM (raw)": 0.7751417389370692,
+    "XGBoost (raw)": 0.7474048476762286,
+    "GBM (raw)": 0.7335361352012454,
+    "AdaBoost (raw)": 0.5169405381365355
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 4,
+    "XGBoost (raw)": 5,
+    "GBM (raw)": 5,
+    "AdaBoost (raw)": 5
+   }
+  }
+ },
+ "CIC-AAGM2017": {
+  "0.01": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.6261,
+    "LightGBM (raw)": 0.6188,
+    "XGBoost (raw)": 0.6134,
+    "GBM (raw)": 0.5456,
+    "AdaBoost (raw)": 0.403
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.6348999999999999,
+    "LightGBM (raw)": 0.6264,
+    "XGBoost (raw)": 0.6228,
+    "GBM (raw)": 0.5517,
+    "AdaBoost (raw)": 0.39549999999999996
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 4,
+    "XGBoost (raw)": 4,
+    "GBM (raw)": 5,
+    "AdaBoost (raw)": 5
+   }
+  },
+  "0.05": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.8126,
+    "LightGBM (raw)": 0.8168,
+    "XGBoost (raw)": 0.8077,
+    "GBM (raw)": 0.7863,
+    "AdaBoost (raw)": 0.6257
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.8164999999999999,
+    "LightGBM (raw)": 0.8186,
+    "XGBoost (raw)": 0.8097,
+    "GBM (raw)": 0.7861,
+    "AdaBoost (raw)": 0.6231000000000001
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 1,
+    "XGBoost (raw)": 4,
+    "GBM (raw)": 5,
+    "AdaBoost (raw)": 5
+   }
+  }
+ },
+ "CIC-Darknet2020": {
+  "0.01": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.8102716760235943,
+    "LightGBM (raw)": 0.8048020496617905,
+    "XGBoost (raw)": 0.7952781530166817,
+    "GBM (raw)": 0.7983107645887693,
+    "AdaBoost (raw)": 0.5260238991183054
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.8109009416696551,
+    "LightGBM (raw)": 0.8050400834085597,
+    "XGBoost (raw)": 0.7969266567326598,
+    "GBM (raw)": 0.7989127298527212,
+    "AdaBoost (raw)": 0.5238925161066937
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 5,
+    "XGBoost (raw)": 5,
+    "GBM (raw)": 5,
+    "AdaBoost (raw)": 5
+   }
+  },
+  "0.05": {
+   "pooled": {
+    "IF-LightGBM (proposed)": 0.9425831324891488,
+    "LightGBM (raw)": 0.9412496011970273,
+    "XGBoost (raw)": 0.9386157394239925,
+    "GBM (raw)": 0.9333136319512285,
+    "AdaBoost (raw)": 0.738674705689589
+   },
+   "perfold_mean": {
+    "IF-LightGBM (proposed)": 0.9430282683294792,
+    "LightGBM (raw)": 0.9414842670681489,
+    "XGBoost (raw)": 0.9382407394239924,
+    "GBM (raw)": 0.9333343663051679,
+    "AdaBoost (raw)": 0.7398809897733316
+   },
+   "wins_vs": {
+    "LightGBM (raw)": 4,
+    "XGBoost (raw)": 5,
+    "GBM (raw)": 5,
+    "AdaBoost (raw)": 5
+   }
+  }
+ }
+}
