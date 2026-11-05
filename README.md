@@ -1,6 +1,6 @@
 # IF-LightGBM
 
-Code and result files for the paper *Intuitionistic Fuzzy Feature Augmentation of LightGBM for Network-Traffic-Based Android Malware Detection: A Controlled and Explainable Evaluation* (A.A. Taha, A.A. AlRababah, A. Elsafi, A.H. Osman, Y.S. Baguda, A.H. Syed, A. Yunianta).
+Code and result files for the paper *Intuitionistic Fuzzy Feature Augmentation of LightGBM for Network-Traffic-Based Android Malware Detection: A Controlled and Explainable Evaluation* (A.A. Taha).
 
 IF-LightGBM augments every flow feature x with its intuitionistic fuzzy non-membership ν = (1 − μ)² and hesitation π = μ(1 − μ), where μ is the clipped min–max scaled feature, and trains LightGBM on [x, ν, π].
 
