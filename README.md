@@ -4,7 +4,7 @@ Code and result files for the paper *Intuitionistic Fuzzy Feature Augmentation o
 
 IF-LightGBM augments every flow feature x with its intuitionistic fuzzy non-membership ν = (1 − μ)² and hesitation π = μ(1 − μ), where μ is the clipped min–max scaled feature, and trains LightGBM on [x, ν, π].
 
-Python 3.13.16, LightGBM 4.7.0, XGBoost 3.4.1, scikit-learn 1.9.1, Optuna 5.0.0, SHAP 0.54.1; Node.js with the `docx` package for the manuscript build.
+Python 3.13.16, LightGBM 4.7.0, XGBoost 3.4.1, scikit-learn 1.9.1, Optuna 5.0.0, SHAP 0.54.1.
 All random seeds are 42. Install with `pip install -r requirements.txt`. **Run every script from the repository root**; all paths are relative to it.
 
 ## Folder layout
@@ -40,11 +40,8 @@ Download from the Canadian Institute for Cybersecurity (https://www.unb.ca/cic/d
 ## 3_figures
 `fig1.py` (framework), `fig_effect.py` (Figure 2, paired differences), `fig_shap.py` (Figure 3, SHAP).
 
-## 4_manuscript
-`texts20.py` → `texts20.json` (all numbers read from result files); `fill20.py` fills the tables into `content20.js`; `node build20.js out.docx` builds the Word file with references from `refs20.js`.
-
 ## Run order
-1. Experiments (1_experiments) → 2. `stats.py`, `stats_prob.py`, `tpr1.py`, SHAP scripts → 3. figure scripts → 4. `python texts20.py && python fill20.py && node build20.js manuscript.docx`
+1. Experiments (1_experiments) → 2. `stats.py`, `stats_prob.py`, `tpr1.py`, SHAP scripts → 3. figure scripts
 
 ## Citation
 If you use this code, please cite the paper (citation details will be added on publication).
